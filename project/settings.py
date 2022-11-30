@@ -120,6 +120,8 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'
 STATIC_ROOT = BASE_DIR / 'assets'
 
 # Default primary key field type

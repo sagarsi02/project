@@ -1,1 +1,21 @@
-{% extends 'snippet/navbar.html' %}
+{% extends 'snippet/base.html' %}
+{% load static %}
+{% block home %}
+
+
+{% if messages %}
+  {% for msg in messages %}
+      <div class="alert-sec">
+        <div class="alert alert-success sweet-alert" role="alert">
+          {{msg}}
+        </div>
+      </div>
+  {% endfor %}
+{% endif %}
+
+<div class="text-center">
+  <h1>Welcome to page</h1>
+  <a href='/upload'>Uploader</a>
+</div>
+
+{% endblock%}

@@ -1,0 +1,10 @@
+.alert-sec{
+    display: flex;
+    justify-content: right;
+    margin: 10px 10px;
+}
+.sweet-alert{
+    padding: 4px 10px;
+    width: 22%;
+    border-radius: 3px;
+}
